@@ -16,4 +16,4 @@ https://andalpezzo.github.io/TA31-JavaSript-II/TA31-Ejercicio14
 https://andalpezzo.github.io/TA31-JavaSript-II/TA31-Ejercicio15
 
 ### TA31-Ejercicio16<br />
-https://andalpezzo.github.io/TA31-JavaSript-II/TA31-Ejercicio14
+https://andalpezzo.github.io/TA31-JavaSript-II/TA31-Ejercicio16
