@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td colspan="5"><input type="text" id="resultado" readonly /></td>
+      </tr>
+      <tr class="btnsRed">
+        <td><button onclick="borrarUltimoNum()">Retr</button></td>
+        <td colspan="2"><button onclick="borrarTodo()">ce</button></td>
+        <td colspan="2"><button onclick="borrarDespuesOperacion()">c</button></td>
+      <tr>
+        <td><button onclick="insertNum(7)">7</button></td>
+        <td><button onclick="insertNum(8)">8</button></td>
+        <td><button onclick="insertNum(9)">9</button></td>
+        <td><button onclick="operacion('/')">/</button></td>
+        <td><button onclick="operacion('sqrt')">Raiz</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="insertNum(4)">4</button></td>
+        <td><button onclick="insertNum(5)">5</button></td>
+        <td><button onclick="insertNum(6)">6</button></td>
+        <td><button onclick="operacion('*')">*</button></td>
+        <td><button onclick="operacion('%')">%</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="insertNum(1)">1</button></td>
+        <td><button onclick="insertNum(2)">2</button></td>
+        <td><button onclick="insertNum(3)">3</button></td>
+        <td><button onclick="operacion('-')">-</button></td>
+        <td><button onclick="operacion('1/x')">1/x</button></td>
+      </tr>
+      <tr>
+        <td><button onclick="insertNum(0)">0</button></td>
+        <td><button onclick="toggleSign()">+/-</button></td>
+        <td><button onclick="decimal()">.</button></td>
+        <td><button onclick="operacion('+')">+</button></td>
+        <td><button onclick="calcular()">=</button></td>
+      </tr>
+    </table>
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

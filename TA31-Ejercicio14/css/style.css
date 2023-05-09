@@ -1,0 +1,22 @@
+body {
+  margin: 25px;
+}
+
+table {
+  border: 1px solid blue;
+  background-color: cornsilk;
+  padding: 20px;
+}
+
+#result {
+  border: 2px solid;
+}
+
+.btnsRed button {
+  color: red;
+}
+
+button {
+  width: 100%;
+  margin-top: 10px;
+}

@@ -1,0 +1,22 @@
+.columnaFotos {
+    float: left;
+    margin-right: 10px;
+}
+
+.imagenes {
+    width: 100px;
+    height: 90px;
+    margin: 5px;
+    display: table;
+    cursor: pointer;
+}
+
+.contenedorImagenGrande {
+    margin-top: 5px;
+    float:left;
+}
+
+#imagenGrande {
+    width: 1000px;
+    height: 750px;
+}
